@@ -1,0 +1,63 @@
+.background{
+    width:100vw;
+    height:100vh;
+    background-image: url("background.png");
+    background-size:cover;
+    overflow: hidden;
+    position: absolute;
+}
+
+.body{
+    margin: 0px;
+}
+
+.player{
+    height:250px;
+    margin-top: 500px;
+    position: absolute;
+}
+
+.score{
+    position:absolute;
+    font-size:80px;
+    font-family:"Arial";
+    font-weight:bold;
+    margin-top: 10px;
+    margin-left:50px;
+}
+
+.block{
+    position:absolute;
+    width:80px;
+    height: 120px;
+    margin-top:620px;
+    position:absolute;
+    background-image: url("flame.gif");
+    background-size:cover;
+}
+
+.endScreen{
+    position: absolute;
+    font-size: 80px;
+    width: 700px;
+    font-weight: bold;
+    font-family: "Arial";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 300px;
+    visibility: hidden;
+}
+
+.btn{
+    width: 350px;
+    height:60px;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
